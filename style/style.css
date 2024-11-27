@@ -36,7 +36,7 @@ nav a:hover{
     
    }
 .main{
-    background: url("img/sea1.png")center/cover;
+    background: url("../img/sea1.png")center/cover;
     background-attachment: fixed;
     height: 900px;
     display: flex;
