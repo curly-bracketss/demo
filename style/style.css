@@ -1,0 +1,84 @@
+
+#header{
+    height: 80px;
+    width:2000;
+    background-color: #eee;
+    align-items: center;
+
+}
+.header-content{
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    nav a {
+        width: 700px;
+       padding-right: 30px; 
+       font:100 12px sans-serif;  
+       text-transform: uppercase;
+       color: black;
+       i{
+        padding-left: 20px;
+        color: darkblue;
+       }
+    }
+    h1{
+        font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color: #00000093;
+        font-weight: 400;
+        font-size: 25px;
+    }
+}
+nav a:hover{
+    color: #786DF9;
+    
+   }
+.main{
+    background: url("https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg")center/cover;
+    background-attachment: fixed;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;   
+    h2{
+        padding-bottom:30px;    
+        font-family:'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+        font-size: 70px;
+        color: white;
+        
+    } 
+    p{
+        padding-bottom:30px; 
+        font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color:white;
+        font-size: 20px;
+    }
+    #first{
+        background-color:#786DF9;
+        padding: 20px 60px;
+        border: 0;
+        a{
+            color: white;
+            font-size: 15px;
+            text-transform: uppercase;
+        }
+
+    }
+    #second{
+        background-color:transparent;
+        padding: 16px 56px;
+        border: 2px solid white;
+        a{
+            color: white;
+            font-size: 15px;
+            text-transform: uppercase;
+        }}
+}
+.buttons{ 
+    display: flex;
+    width:480px;
+    justify-content:space-between;
+}
