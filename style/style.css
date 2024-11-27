@@ -7,7 +7,7 @@
 
 }
 .header-content{
-    padding-top: 30px;
+    padding: 20px 0;
     margin: 0 auto;
     width: 1200px;
     display: flex;
@@ -56,10 +56,12 @@ nav a:hover{
         color:white;
         font-size: 20px;
     }
-    #first{
+    .first{
+        cursor: pointer;
         background-color:#786DF9;
         padding: 20px 60px;
         border: 0;
+        transition: .4s;
         a{
             color: white;
             font-size: 15px;
@@ -67,7 +69,15 @@ nav a:hover{
         }
 
     }
-    #second{
+    .first:hover{
+       background-color:  #413488;
+    }
+    .second:hover{
+        background-color: white;
+        a{color:#080808;}
+    }
+    .second{
+        cursor: pointer;
         background-color:transparent;
         padding: 16px 56px;
         border: 2px solid white;
